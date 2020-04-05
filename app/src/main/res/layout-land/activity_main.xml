@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a20200210.MainActivity">
+
+    <com.example.a20200210.Background_video
+        android:id="@+id/back_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.example.a20200210.CameraPreview
+        android:id="@+id/preview"
+        android:layout_width="176dp"
+        android:layout_height="242dp"
+        android:layout_gravity="left|top"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right|center"/>
+
+</FrameLayout>
